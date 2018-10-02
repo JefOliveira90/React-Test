@@ -15,4 +15,12 @@ O desenvolvedor tem liberdade para definir a arquitetura para organizar seus arq
 
 É Livre a utilização de biblioteca de terceiros, layout;
 
+Usar cache;
+
+Continuidade dos resultados ao efetuarem buscas;
+
+Cuidado com o uso de memória;
+
+Rodar em Android/IOS;
+
 Boa Sorte
