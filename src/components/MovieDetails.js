@@ -23,8 +23,6 @@ class MovieDetails extends Component {
 
     componentDidUpdate() {
         this.props.render ? this.showView() : this.hideView();
-
-        console.log(this.props.render);
     }
 
     showView() {
@@ -47,8 +45,6 @@ class MovieDetails extends Component {
 
     render() {
         if(!this.props.info) { return null; }
-
-        console.log(this.props.info);
 
         return (
             <Animated.View style={[ styles.view, { transform: [{ translateY: this.state.posY }] } ]}>
