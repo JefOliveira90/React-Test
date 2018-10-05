@@ -20,7 +20,7 @@ jest.doMock('FlatList', () => props => {
     return (<div class="FlatList">{JSON.stringify(props.data)}</div>);
 });
 
-test('SearchResult view looks correct', async () => {
+test('Detailed info on movie in SearchResults looks correct', async () => {
     const app = renderer.create(<App />);
     const appInstance = app.getInstance();
     const router = app.root.findByType(Router);
