@@ -78,7 +78,7 @@ export default class App extends Component {
         return obj;
     }
 
-    fetchMoreResults() {
+    async fetchMoreResults(fetch = true) {
         let limit = this.state.searchResultsPerPage;
         let total = this.state.searchTotalResults;
 
@@ -88,7 +88,7 @@ export default class App extends Component {
 
         this.setState((state) => ({
             searchPage: state.searchPage + 1
-        }), this.fetchSearchResults);
+        }), fetch ? this.fetchSearchResults : null);
     }
 
     resetSearchResults(callback) {

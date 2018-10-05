@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchResult view looks correct 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "stretch",
+      "display": "flex",
+      "flexDirection": "column",
+      "height": "100%",
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#411a9b",
+        "display": "flex",
+        "flex": 10,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "height": 30,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#411a9b",
+            "display": "flex",
+            "flex": 1,
+            "justifyContent": "center",
+            "left": 0,
+            "opacity": 0,
+            "position": "relative",
+            "top": 0,
+            "transform": Array [
+              Object {
+                "translateY": -30,
+              },
+            ],
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "white",
+              "fontSize": 14,
+              "textAlign": "center",
+              "width": "100%",
+            }
+          }
+        >
+          Resultados da busca por "Godfather"
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgba(0,0,0,.2)",
+          "display": "flex",
+          "flex": 10,
+          "justifyContent": "center",
+          "opacity": 0,
+          "width": "100%",
+          "zIndex": 0,
+        }
+      }
+    >
+      <div
+        class="FlatList"
+      >
+        [{"Title":"The Godfather","Year":"1972","imdbID":"tt0068646","Type":"movie","Poster":"https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg","Rated":"R","Released":"24 Mar 1972","Runtime":"175 min","Genre":"Crime, Drama","Director":"Francis Ford Coppola","Writer":"Mario Puzo (screenplay by), Francis Ford Coppola (screenplay by), Mario Puzo (based on the novel by)","Actors":"Marlon Brando, Al Pacino, James Caan, Richard S. Castellano","Plot":"When the aging head of a famous crime family decides to transfer his position to one of his subalterns, a series of unfortunate events start happening to the family, and a war begins between all the well-known families leading to insolence, deportation, murder and revenge, and ends with the favorable successor being finally chosen.","Language":"English, Italian, Latin","Country":"USA","Awards":"Won 3 Oscars. Another 24 wins & 28 nominations.","Ratings":[{"Source":"Internet Movie Database","Value":"9.2/10"},{"Source":"Rotten Tomatoes","Value":"98%"},{"Source":"Metacritic","Value":"100/100"}],"Metascore":"100","imdbRating":"9.2","imdbVotes":"1,370,696","DVD":"09 Oct 2001","BoxOffice":"N/A","Production":"Paramount Pictures","Website":"http://www.thegodfather.com","Response":"True"},{"Title":"The Godfather: Part II","Year":"1974","imdbID":"tt0071562","Type":"movie","Poster":"https://m.media-amazon.com/images/M/MV5BMWMwMGQzZTItY2JlNC00OWZiLWIyMDctNDk2ZDQ2YjRjMWQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg","Rated":"R","Released":"20 Dec 1974","Runtime":"202 min","Genre":"Crime, Drama","Director":"Francis Ford Coppola","Writer":"Francis Ford Coppola (screenplay by), Mario Puzo (screenplay by), Mario Puzo (based on the novel by)","Actors":"Al Pacino, Robert Duvall, Diane Keaton, Robert De Niro","Plot":"The continuing saga of the Corleone crime family tells the story of a young Vito Corleone growing up in Sicily and in 1910s New York; and follows Michael Corleone in the 1950s as he attempts to expand the family business into Las Vegas, Hollywood and Cuba.","Language":"English, Italian, Spanish, Latin, Sicilian","Country":"USA","Awards":"Won 6 Oscars. Another 11 wins & 20 nominations.","Ratings":[{"Source":"Internet Movie Database","Value":"9.0/10"},{"Source":"Rotten Tomatoes","Value":"97%"},{"Source":"Metacritic","Value":"90/100"}],"Metascore":"90","imdbRating":"9.0","imdbVotes":"946,325","DVD":"24 May 2005","BoxOffice":"N/A","Production":"Paramount Pictures","Website":"http://www.thegodfather.com/","Response":"True"},{"Title":"The Godfather: Part III","Year":"1990","imdbID":"tt0099674","Type":"movie","Poster":"https://m.media-amazon.com/images/M/MV5BZWQ2NjhmMWMtZDdiZC00ZTgyLWExNTEtZDMzNmRiMTMxMmIxXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg","Rated":"R","Released":"25 Dec 1990","Runtime":"162 min","Genre":"Crime, Drama","Director":"Francis Ford Coppola","Writer":"Mario Puzo, Francis Ford Coppola","Actors":"Al Pacino, Diane Keaton, Talia Shire, Andy Garcia","Plot":"In the final instalment of the Godfather Trilogy, an aging Don Michael Corleone seeks to legitimize his crime family's interests and remove himself from the violent underworld but is kept back by the ambitions of the young. While he attempts to link the Corleone's finances with the Vatican, Michael must deal with the machinations of a hungrier gangster seeking to upset the existing Mafioso order and a young protoge's love affair with his daughter.","Language":"English, Italian, German, Latin","Country":"USA","Awards":"Nominated for 7 Oscars. Another 6 wins & 15 nominations.","Ratings":[{"Source":"Internet Movie Database","Value":"7.6/10"},{"Source":"Rotten Tomatoes","Value":"67%"},{"Source":"Metacritic","Value":"60/100"}],"Metascore":"60","imdbRating":"7.6","imdbVotes":"314,487","DVD":"24 May 2005","BoxOffice":"N/A","Production":"Paramount Pictures","Website":"N/A","Response":"True"},{"Title":"The Godfather Trilogy: 1901-1980","Year":"1992","imdbID":"tt0150742","Type":"movie","Poster":"https://images-na.ssl-images-amazon.com/images/M/MV5BMTY1NzYxNDk0NV5BMl5BanBnXkFtZTYwMjk5MTM5._V1_SX300.jpg","Rated":"R","Released":"N/A","Runtime":"583 min","Genre":"Crime, Drama, Thriller","Director":"Francis Ford Coppola","Writer":"Francis Ford Coppola, Mario Puzo (novel)","Actors":"Al Pacino, Robert Duvall, Diane Keaton, Talia Shire","Plot":"The multigenerational saga of the rise and fall of the Corleone crime family.","Language":"English, Italian","Country":"USA","Awards":"N/A","Ratings":[{"Source":"Internet Movie Database","Value":"9.2/10"}],"Metascore":"N/A","imdbRating":"9.2","imdbVotes":"13,806","DVD":"N/A","BoxOffice":"N/A","Production":"N/A","Website":"N/A","Response":"True"},{"Title":"The Godfather Saga","Year":"1977","imdbID":"tt0809488","Type":"series","Poster":"https://m.media-amazon.com/images/M/MV5BMDQ5ZjNkYzYtMTQ2My00ZjU0LTk0MWQtNjhhNTg5ZWQzYzEyXkEyXkFqcGdeQXVyMjA0MDQ0Mjc@._V1_SX300.jpg","Rated":"N/A","Released":"12 Nov 1977","Runtime":"434 min","Genre":"Crime, Drama, Thriller","Director":"N/A","Writer":"N/A","Actors":"Marlon Brando, Al Pacino, Robert Duvall, James Caan","Plot":"The Godfather (1972) and The Godfather: Part II (1974) were re-edited together in chronological order with additional footage added.","Language":"English","Country":"USA","Awards":"N/A","Ratings":[{"Source":"Internet Movie Database","Value":"9.5/10"}],"Metascore":"N/A","imdbRating":"9.5","imdbVotes":"3,573","totalSeasons":"1","Response":"True"},{"Title":"The Godfather","Year":"2006","imdbID":"tt0442674","Type":"game","Poster":"https://images-na.ssl-images-amazon.com/images/M/MV5BMTQyNTE4NzMzNF5BMl5BanBnXkFtZTgwMDgzNTY3MDE@._V1_SX300.jpg","Rated":"N/A","Released":"24 Mar 2006","Runtime":"N/A","Genre":"Action, Crime, Drama","Director":"Peter Mitchell Rubin","Writer":"Mario Puzo (characters), Philip Campbell (story), Philip Campbell (dialogue)","Actors":"Marlon Brando, Robert Duvall, James Caan, Abe Vigoda","Plot":"Set in New York from 1945-1955, Players will join the Corleone family as \\"soliders\\" and work their way up the ranks through loyalty, fear, and any number of illegal activities. The goal is to become Don of your own mafia family.","Language":"English","Country":"USA","Awards":"1 win.","Ratings":[{"Source":"Internet Movie Database","Value":"8.3/10"}],"Metascore":"N/A","imdbRating":"8.3","imdbVotes":"2,885","DVD":"N/A","BoxOffice":"N/A","Production":"N/A","Website":"N/A","Response":"True"},{"Title":"Godfather","Year":"1991","imdbID":"tt0353496","Type":"movie","Poster":"https://images-na.ssl-images-amazon.com/images/M/MV5BZTkyYzc5MGEtYTBiYS00ZmYyLThlZWUtOWY3ZWE4ZDhlN2MzXkEyXkFqcGdeQXVyMjM0ODk5MDU@._V1_SX300.jpg","Rated":"N/A","Released":"15 Nov 1991","Runtime":"150 min","Genre":"Comedy, Drama, Romance","Director":"Lal, Siddique","Writer":"Lal (screenplay,  story & dialogue), Siddique","Actors":"N.N. Pillai, Mukesh, Kanaka, Philomina","Plot":"Two rival clans under Anjooran and Achamma have a history of mutual hatred. Anjooran, convinced that women are the root of all evil, ensures that all his sons stay bachelors. The youngest son, Ramabhadran falls in love with Malu, from Achamma's family. A complicated tug-of-war ensues.","Language":"Malayalam","Country":"India","Awards":"2 wins.","Ratings":[{"Source":"Internet Movie Database","Value":"8.5/10"}],"Metascore":"N/A","imdbRating":"8.5","imdbVotes":"1,719","DVD":"N/A","BoxOffice":"N/A","Production":"N/A","Website":"N/A","Response":"True"},{"Title":"The Last Godfather","Year":"2010","imdbID":"tt1584131","Type":"movie","Poster":"https://m.media-amazon.com/images/M/MV5BMTYxNTgzOTQyNV5BMl5BanBnXkFtZTcwMzI1NDk3NA@@._V1_SX300.jpg","Rated":"PG-13","Released":"29 Dec 2010","Runtime":"100 min","Genre":"Comedy","Director":"Hyung-rae Shim","Writer":"Hyung-rae Shim","Actors":"Harvey Keitel, Jason Mewes, Michael Rispoli, Jocelin Donahue","Plot":"Young-goo (Hyung-rae Sim) the son of mafia boss Don Carini (Harvey Keitel), is too foolish to be part of the mafia elite. One day, Young-goo comes to his father and is trained by Tony V (Michael Rispoli) to be his father's successor. A few days later, Young-goo accidentally rescues Nancy (Jocelin Donahue), the only daughter of Don Bonfante, the boss of a rival mafia family. But Vinnie (Jason Mewes), an under-boss of the Bonfante family kidnapped her and fabricates that Young-goo has taken her. Vinnie's behavior provokes an armed conflict between the two families.","Language":"English","Country":"South Korea, USA","Awards":"N/A","Ratings":[{"Source":"Internet Movie Database","Value":"3.7/10"}],"Metascore":"N/A","imdbRating":"3.7","imdbVotes":"1,020","DVD":"09 Aug 2011","BoxOffice":"$163,591","Production":"Roadside Attractions","Website":"http://www.lastgodfathermovie.com/","Response":"True"},{"Title":"Disco Godfather","Year":"1979","imdbID":"tt0074412","Type":"movie","Poster":"https://m.media-amazon.com/images/M/MV5BMTU5MzAyMTY1Ml5BMl5BanBnXkFtZTgwNzA2MjI4MzE@._V1._CR46,89.5,1255,1862_SX89_AL_.jpg_V1_SX300.jpg","Rated":"R","Released":"01 Sep 1979","Runtime":"93 min","Genre":"Action, Crime, Drama","Director":"J. Robert Wagoner","Writer":"J. Robert Wagoner, Cliff Roquemore","Actors":"Rudy Ray Moore, Carol Speed, Jimmy Lynch, Jerry Jones","Plot":"A retired cop becomes a DJ/celebrity at the Blueberry Hill disco-- he's the \\"Disco Godfather!\\" All is well until his nephew flips out on a strange new drug that's sweeping the streets, called \\"angel dust,\\" or PCP. Disco Godfather vows \\"to personally come down on the suckers that's producing this shit!\\" He takes to the streets, slaps drug dealers and even exposes a crooked cop that is covering for the dealers. In between, he still finds time to manage the Blueberry Hill and perform. \\"Put a little slide in yo' glide,\\" he pleads to the patrons, \\"Put some weight on it!\\" Disco Godfather tracks down the kingpin that is behind all the angel dust production, but not before he is kidnapped and forced to inhale PCP through a gas mask!","Language":"English","Country":"USA","Awards":"N/A","Ratings":[{"Source":"Internet Movie Database","Value":"5.3/10"},{"Source":"Rotten Tomatoes","Value":"83%"}],"Metascore":"N/A","imdbRating":"5.3","imdbVotes":"931","DVD":"27 Jul 1999","BoxOffice":"N/A","Production":"Transvue Pictures Corp.","Website":"N/A","Response":"True"},{"Title":"The Godfather Family: A Look Inside","Year":"1990","imdbID":"tt0101961","Type":"movie","Poster":"https://images-na.ssl-images-amazon.com/images/M/MV5BMTUzOTc0NDAyNF5BMl5BanBnXkFtZTcwNjAwMDEzMQ@@._V1_SX300.jpg","Rated":"N/A","Released":"12 Jul 1990","Runtime":"73 min","Genre":"Documentary","Director":"Jeff Werner","Writer":"David Gilbert","Actors":"Francis Ford Coppola, Mario Puzo, Marlon Brando, James Caan","Plot":"A documentary on the making of the three Godfather films, with interviews and recollections from the film makers and cast. This feature also includes the original screen tests of some of the actors for \\"The Godfather\\" film, and some candid moments on the set of \\"The Godfather: Part III.\\"","Language":"English, Italian","Country":"USA","Awards":"N/A","Ratings":[{"Source":"Internet Movie Database","Value":"8.0/10"}],"Metascore":"N/A","imdbRating":"8.0","imdbVotes":"796","DVD":"N/A","BoxOffice":"N/A","Production":"N/A","Website":"N/A","Response":"True"}]
+      </div>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#411a9b",
+          "height": "100%",
+          "left": 0,
+          "position": "absolute",
+          "top": 0,
+          "transform": Array [
+            Object {
+              "translateY": 1334,
+            },
+          ],
+          "width": "100%",
+          "zIndex": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "padding": 10,
+            "position": "absolute",
+            "right": 5,
+            "top": 5,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={null}
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "white",
+                "fontSize": 20,
+              }
+            }
+          >
+            X
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

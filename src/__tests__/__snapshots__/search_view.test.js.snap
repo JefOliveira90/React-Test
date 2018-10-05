@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search view looks correct 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "stretch",
+      "display": "flex",
+      "flexDirection": "column",
+      "height": "100%",
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#411a9b",
+        "display": "flex",
+        "flex": 10,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flex": 10,
+          "justifyContent": "center",
+          "width": "100%",
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 18,
+            "marginBottom": 20,
+            "textAlign": "center",
+            "width": "80%",
+          }
+        }
+      >
+        Insira o nome do filme ou série.
+      </Text>
+      <TextInput
+        allowFontScaling={true}
+        onChangeText={[Function]}
+        placeholder="Nome"
+        placeholderTextColor="rgba(255, 255, 255, 0.4)"
+        selectionColor="rgba(255, 255, 255, 0.4)"
+        style={
+          Object {
+            "borderBottomColor": "white",
+            "borderBottomWidth": 2,
+            "color": "white",
+            "fontSize": 28,
+            "textAlign": "center",
+            "width": "70%",
+          }
+        }
+        underlineColorAndroid="transparent"
+        value="Godfather"
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "space-around",
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "opacity": 0,
+            "transform": Array [
+              Object {
+                "translateY": 40,
+              },
+            ],
+            "width": 100,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "justifyContent": "center",
+                "padding": 10,
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../assets/icon-search.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 26,
+                  "width": 26,
+                }
+              }
+            />
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "white",
+                }
+              }
+            >
+              Buscar
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
